@@ -1,0 +1,30 @@
+{
+  "name": "@pavloskii/node-cli-template",
+  "version": "0.1.0",
+  "description": "Nodejs CLI template with examples",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavloskii/node-cli-template.git"
+  },
+  "keywords": [
+    "node",
+    "cli",
+    "template"
+  ],
+  "author": "Igor Pavloski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pavloskii/node-cli-template/issues"
+  },
+  "homepage": "https://github.com/pavloskii/node-cli-template#readme",
+  "devDependencies": {
+    "@types/node": "^20.3.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.3"
+  }
+}
